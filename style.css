@@ -3,8 +3,14 @@ body {
     padding-top: 15px;
     padding-bottom: 90px;
     text-align: center;
-
+    align-items: center;
 }
+
+.centrado {
+    background-color: #b58f69;
+}
+
+.container-fluid {}
 
 header {
     padding-top: 15px;
@@ -22,6 +28,8 @@ header div {
 header div img {
     margin: 0 auto;
 }
+
+nav {}
 
 h1,
 h2,
@@ -69,16 +77,26 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    }
+}
 
 
 .menuhome a {
     text-decoration: none;
 }
 
+.menuhome {
+    font-size: 13px;
+    text-decoration: none;
+
+    /* Eliminar espacios entre elementos inline-block */
+    img {
+        display: inline-block;
+        margin: 5px;
+        /* Espacio entre imágenes */
+    }
+}
+
 .menuhome img {
-    display-flex
-    flex: wrap 
     width: 100px;
     /* Ajusta el tamaño de las imágenes según sea necesario */
     height: auto;
